@@ -14,10 +14,18 @@ const styles = {
 export default function App() {
   return (
     <View style={styles.screen}>
-      <Text>Courses Goals v. 09-00</Text>
-      <TextInput />
-      <Button title="add goal"/>
-      <StatusBar style="auto" />
+      <View style={styles.empty}>
+        <Text>Courses Goals v. 09-00</Text>
+      </View>
+      <View style={styles.inputContainer}>
+        <TextInput 
+          placeholder="Course Goal..."
+          style={styles.inputContainer}
+        />
+      </View>
+      <View style={styles.empty}>
+        <Button title="add goal" />
+      </View>
     </View>
   );
 }
