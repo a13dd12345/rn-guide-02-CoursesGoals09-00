@@ -13,3 +13,9 @@ https://snack.expo.dev/@git/github.com/a13dd12345/rn-guide-02-CoursesGoals09-00
 
 
 
+## 02.- 11.- Working with State & Events
+
+## ** Add useState - goalItemInput
+
+
+
