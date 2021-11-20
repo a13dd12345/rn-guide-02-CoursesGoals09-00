@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { Text, View, TextInput, Button } from 'react-native';
 
@@ -18,7 +17,7 @@ export default function App() {
         <Text>Courses Goals v. 09-00</Text>
       </View>
       <View style={styles.inputContainer}>
-        <TextInput 
+        <TextInput
           placeholder="Course Goal..."
           style={styles.inputContainer}
         />
